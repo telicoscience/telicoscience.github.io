@@ -8,7 +8,9 @@ body {
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
-
+ul{
+	text-align: left;
+}
 
 h1,
 h6 {
