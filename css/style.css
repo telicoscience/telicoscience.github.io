@@ -7,20 +7,34 @@ body {
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+
+    font-family: Verdana,Helvetica,sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    height: 100%;
+    margin: 0;
+    grid-template-rows: 75px 1fr 75px;
 }
+
+
 ul{
 	text-align: left;
 }
 
 h1,
 h6 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	text-align: center;
-	position: absolute;
+	font-family: Verdana,Helvetica,sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    height: 100%;
+    margin: 0;
+	font-weight: 500;
+	color: white;
 	top: 45%;
 	right: 0;
 	left: 0;
+	text-shadow: black;
+	line-height: 1.5;
+    text-align: start;
+
 }
 
 
@@ -50,4 +64,62 @@ h6 {
 	  background-position: 50% 50%;
   }
 
+  .container {
+    width: 100%;
+    margin: 0px 0px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title{
+	margin: 8em;
+	align-items: center; 
+	position: relative;
+	text-shadow: black;
+
+
+
+  }
+
+  .container .logo{
+	position: absolute;
+	width: 100px;
+	top: 0px;  
+	bottom: 0px;
+	left: 0px;
+	scale: 10%;
+	max-width: 150px; 
+    max-height: 150px;
+	
+
+  }
+
   
+  body .fundo-branco {
+    width: 100%;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+
+	height: 90vh;
+	color: rgb(0, 0, 0);
+	background: #fff; 
+	background-size: 400% 400%;
+	font-weight: 400;
+    font-family: Verdana,Helvetica,sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 14pt;
+
+
+  }
+
+  body .fundo-branco .texto{
+
+    margin: 2em;
+    
+	
+  }
