@@ -14,7 +14,7 @@ body {
     margin: 3 em;
     grid-template-rows: 75px 1fr 75px;
 }
-header{
+.header{
 background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); 	
 }
 div {
