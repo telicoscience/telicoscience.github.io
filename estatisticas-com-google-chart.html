@@ -47,6 +47,49 @@
     A metodologia deste trabalho envolve pegarmos assuntos e problemas de tratamento da informação do ensino fundamental e resolvermos graficamente gerando os gráficos através desta página. 
     Além disso, eu pretendo compartilhar aqui os códigos que eu utilizei para chegar ao resultado dos gráficos. 
 </div>
+    <H2>Testando a API através de um script pronto </H2>
+    O gráfico que será processado logo abaixo é apenas um teste copiado do tutorial  da digitalinnovation. 
+    
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(GeraGrafico);
+   
+
+      function GeraGrafico() {
+        var data = google.visualization.arrayToDataTable([
+          ['Mês', 'Volume'],
+          ['jan', 2.5],
+          ['fev', -15.1],
+          ['mar', -47.7],
+          ['abr', -5.4],
+        ['mai', -13.6],
+        ['jun', -10.1],
+        ['jul', -4.9],
+        ['ago', 0],
+         ['set', 0],
+          ['out', 0],
+           ['nov', 0],
+            ['dez', 0]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Aderência de volume',
+            subtitle: 'Mês, volume: 2020',
+          }
+        };
+        
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+
+
+
+    </script>   
+
+
+          <div id="columnchart_material" style="width: 30%px; height: 30%px;"></div>     
 <h2> Probabilidade e estatística - 6° ano </h2>
     
     Para professores: A BNCC propõe na currículo de matemática do ensino fundamental a área de tratamento da informação. Ao longo dos quatro anos do Ensino Fundamental, os estudantes têm contato com saberes que conferem a eles competências e habilidades para ler, interpetar e construir gráficos e tabelas estatísticas úteis na representação de fenômenos científicos e sociais. 
@@ -56,6 +99,8 @@
         <li><b>EF06MA31</b></li>
         <li><b>EF06MA3</b></li>
     </ul>
+    
+        
 <footer>
 
 </footer>
