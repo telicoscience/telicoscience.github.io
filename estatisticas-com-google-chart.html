@@ -129,6 +129,27 @@
         }
     </script>
     <div id="table_div">
+        
+        <blockquote>
+  <pre>
+    <code>
+   <script type ="text/javascript">
+        google.charts.load('current', {'packages': ['table']});
+        google.charts.setOnLoadCallback(drawTable);
+        
+        function drawTable(){
+         var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Nome');
+            data.addColumn('number','Número de irmãos');
+            data.addRows([['João', 2],['Beatriz', 2],['Felipe', 5 ],['Henrique', 1 ],['Laura', 0],['Rodrigo',2 ],['Carolina', 4]
+                         ]);
+            var table = new google.visualization.Table(document.getElementById('table_div'));
+        table.draw(data, {showRowNumber: false, width:'50%',height:'100%'});
+        }
+    </script>
+    <div id="table_div">    </code>
+  </pre>
+</blockquote>
     <h3>Construção de um gráfico de barras</h3>
     <h3>Construção de um gráfico de setor</h3>
    
