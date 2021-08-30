@@ -117,7 +117,11 @@ h2 {
     flex-wrap: wrap;
   }
   .title{
-	margin: 8em;
+
+		margin-top: 8em;
+    margin-right: 8em;
+    margin-bottom: 2em;
+    margin-left: 8em;
 	align-items: center; 
 	position: relative;
 	text-shadow: black;
