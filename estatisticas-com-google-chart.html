@@ -109,6 +109,21 @@
     Observe qe a variável desta pesquisa é <b>quantitativa</b>, pois as respostas dos alunos são <b>quantidades</b>.</br>"
     
     Iremos inicialmente reproduzir a tabela presente no livro através de um script usando o google API e explicaremos  o passo-a-passo presente na construção desse script. Em seguida, faremos o mesmo com o gráfico de barras e com o gráfico de setores. 
+    <script type ="text/javascript">
+        google.charts.load('current', {'packages': ['table']});
+        google.charts.setOnLoadCallback(drawTable);
+        
+        function drawTable(){
+         var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Nome');
+            data.addColumn('number','Número de irmãos');
+            data.addRows([['João', 2],['Beatriz', 2],['Felipe', 5 ],['Henrique', 1 ],['Laura', 0],['Rodrigo',2 ],['Carolina', 4]
+                         ]);
+            var table = new google.visualization.Table(document.getElementById('table_div'));
+        table.draw(data, {showRowNumber: false, width:'100%',height:'100%'});
+        }
+    </script>
+    <div id="table_div">
     <h3>Construção de um gráfico de barras</h3>
     <h3>Construção de um gráfico de setor</h3>
    
