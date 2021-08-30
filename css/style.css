@@ -146,7 +146,7 @@ h2 {
   
   body .fundo-branco {
     width: 100%;
-    margin: 0px 0px;
+    margin-left: 50px;
     box-sizing: border-box;
     display: block;
     justify-content: center;
