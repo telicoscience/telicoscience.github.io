@@ -28,6 +28,11 @@ div {
    margin-bottom: 10px;
 }
 
+#columnchart_material{
+width:500 px;
+height: 230 px;
+}
+
 ul{
 	text-align: left;
 }
