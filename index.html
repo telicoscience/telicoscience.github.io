@@ -1,66 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Télico Oliveira - Professor e programador</title>
+	<title>Télico Oliveira</title>
+	<link rel="stylesheet" href="default.css">
+	<link id="theme-style" rel="stylesheet" href="">
+
 </head>
-<body class="colored">
-    <div class="container">
-        <div class="col-xs-12">
-                <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                    <img class="backdrop linktree">
-                    <h2 style="color: #ffffff; padding-top: 20px;">Télico Oliveira</h2>
-                    <p>Professor de matemática da rede estadual de ensino do Rio Grande do Norte e da rede municipal de ensino da cidade de Mossoró-RN. 
-                        Possui graduação em matemática pela UERN (2012). Cursou um ano de disciplinas do mestrado em engenharia mecatrônica da UFRN em 2014. Possui mestrado em matemática na modalidade PROFMAT pela UFERSA. Possui 10 anos de experiência profissional como professor em escolas privadas e públicas e agora busca uma mudança de carreira na área de desenvolvimento web. 
-                        Atualmente, tenho dedicado parte do meu tempo a me aprimorar em habilidades úteis ao mercado de tecnologia desenvolvendo habilidades que podem ser vistas através das atualizações no meu portfólio no Github. Possuo habilidade nas seguintes áreas: 
-                        
-                    <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>bootstrap</li>
-                            <li>wordpress</li>
-                            <li>lógica de programação</li>
-                            <li>PHP</li>
-                            <li>git e github</li>
-                        </ul>
-                        
-                     </p>
-            <p>
-     Queria ainda convidar vocês para darem uma olhada na página que eu estou construíno. Ela envolve a produção de gráficos estatísticos presentes nos livros didáticos escolares usando a API de gráficos google chart.<a href="https://telicoscience.github.io/estatisticas-com-google-chart.html"> Para conhecer, basta clicar aqui.</a> 
-                </div>
-        </div>
-        </div>
-    
-    
-        <div class="container">
-        <div class="col-xs-12">
-                <div class="text-center">
-                    <div style="padding-bottom: 30px;">
-                        <button onclick="location.href='https://www.youtube.com/channel/UCVo_eTm4BO_rQsGG0kiicTA'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Canal de aulas de matemática</button>
-                    </div>
-                  
-                    <div style="padding-bottom: 30px;">
-                        <button onclick="location.href='https://github.com/telicoscience'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Portfólio de projetos no github</button>
-                    </div>
-                    <div style="padding-bottom: 30px;">
-                    </div>
-                </div>
-        </div>
-        </div>
-    
-            <div class="text-center">
-                <a href="#" style="color: #34312f;">Desenvolvido na raça por Télico Oliveira</a>
-            </div>
-    
-    
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<body>
+	<section class="s1">
+		<div class="main-container">
+			<div class="greeting-wrapper">
+				<h1>Olá. Eu me chamo Télico Oliveira</h1>			
+			</div>
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+					<div class="dots-wrapper">
+						<div id="dot-1" class="browser-dots"></div>
+						<div id="dot-2" class="browser-dots"></div>
+						<div id="dot-3" class="browser-dots"></div>
+					</div>
+			
+				</div>
+				<div class="left-column">
+					<img id="profile_pic"src="sambi.jpeg">
+					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+					<div id="theme-options-wrapper">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+					<p id="settings-note">"Theme settings will be saved for<br> your next visit."</p>
+				</div>
+				<div class="right-column">
+					<div id="preview-shadow" >
+						<div id="preview">
+							<div  id="corner-tl" class="corner"></div>
+							<div  id="corner-tr" class="corner"></div>
+							<h3>What I Do</h3>
+							<p>" I was learning computer language in a past life , Now I enjoy making new projects. "</p>
+							<div  id="corner-br" class="corner"></div>
+							<div  id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+																
+				</div>				
+			</div>
+		</div>
+	</section>
 
+	<section class="s2">
+		<div class="main-container">
+
+			<div class="about-wrapper">
+				<div class="about me">
+					<h4>More about me</h4>
+
+					<p>I build new projects just to tickle my brain and love studing others project also !</p>
+
+					<p>While I keep busy in learning courses, I still take interviews in search of a great team & projects that interest me.</p>
+				</div>
+				
+			
+				<div>
+					<h4>COMP. language that I know</h4>
+					<div id="skills">
+						<ul>
+							<li>Python</li>
+							<li>Django</li>					
+							<li>Sql</li>						
+						</ul>
+
+						<ul>						
+							<li>Java</li>
+							<li>HTML/CSS</li>
+						</ul>
+
+					</div>
+				</div>
+				<div class="con">
+					<p><h7>you want to know more about<br>my projects then contact me</h7></p>
+					<h6>E-mail-sambit.raj2001@gmail.com</h6>	
+				</div>
+
+				<div class="social-links">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="s1">
+		<div class="main-container">
+			<h3 style="text-align: center;">Some of my past projects</h3>
+			<div class="post-wrapper">
+				<div>
+					<div class="post">
+						<img class="thumbnail" src= "project-2.jpeg">
+						<div class="post-preview">
+							<h6 class="post-title">GUI-LOGINPAGE</h6>
+							<p class="post-intro">In this project you can see the interfernce of the login page </p>
+							<a href="main.pdf">Read More</a>													
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src= "project-3.jpeg">
+						<div class="post-preview">
+							<h6 class="post-title">GUI-LOGINPAGE 2</h6>
+							<p class="post-intro">In this login page you can see the interfernce with saving your login data</p>
+							<a href="main2.pdf">Read More</a>						
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src= "project-4.jpeg">
+						<div class="post-preview">
+							<h6 class="post-title">PORTFOLIO-WEBSITE</h6>
+							<p class="post-intro">This is your personalize website where you can save your project</p>
+							<a href="#">this project is pvt</a>						
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="post">
+						<img class="thumbnail" src= "project-5.jpeg">
+						<div class="post-preview">
+							<h6 class="post-title">TO-DO LIST</h6>
+							<p class="post-intro">This is a to-do list which remind your task</p>
+							<a href="TODO.pdf">Read More</a>						
+						</div>
+					</div>					
+				</div>
+				
+                                <div>
+                                        <div class="post">
+                                                <img class="thumbnail" src= "project-6.jpeg">
+                                                <div class="post-preview">
+                                                        <h6 class="post-title">COLLEGE-NEEDER</h6>
+                                                        <p class="post-intro">This is a website where all the students can have they are notes etc in one website</p>
+                                                        <a href="https://collegeneeder.000webhostapp.com/">Read More</a>						
+                                                </div>
+                                        </div>
+                                </div>                
+			</div>			
+		</div>
+	</section>
+	<script type="text/javascript" src="script.js"></script>
+	
 </body>
 </html>
